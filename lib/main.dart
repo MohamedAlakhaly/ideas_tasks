@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ideas_tasks/constant/app_routes.dart';
-import 'package:ideas_tasks/modules/task_4/home/view/home_view_task4.dart';
 import 'package:ideas_tasks/routes.dart';
 import 'package:ideas_tasks/theme/app_theme.dart';
 
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.commentIdeasView,
+      initialRoute: AppRoutes.navigationMenuTask4,
       getPages: getPages,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,

@@ -5,6 +5,7 @@ import 'package:ideas_tasks/modules/task_2/edit_profile/view/edit_profile_view_i
 import 'package:ideas_tasks/modules/task_2/profile/settings/view/settings_view_ideas.dart';
 import 'package:ideas_tasks/modules/task_2/profile/view/profile_view_ideas.dart';
 import 'package:ideas_tasks/modules/task_3/comment/view/comment_ideas_view.dart';
+import 'package:ideas_tasks/modules/task_4/navigation_bar/view/navigation_menu_task4.dart';
 
 List<GetPage<dynamic>>? getPages = [
   GetPage(name: AppRoutes.questionView, page: () => const QuestionsView()),
@@ -12,4 +13,5 @@ List<GetPage<dynamic>>? getPages = [
   GetPage(name: AppRoutes.profileViewIdeas, page: () => const ProfileViewIdeas()),
   GetPage(name: AppRoutes.settingsView, page: () => const SettingsViewIdeas()),
   GetPage(name: AppRoutes.commentIdeasView, page: () => const CommentIdeasView()),
+  GetPage(name: AppRoutes.navigationMenuTask4, page: () => const NavigationMenuTask4()),
 ];

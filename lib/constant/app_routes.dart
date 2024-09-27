@@ -6,4 +6,5 @@ class AppRoutes {
   static String commentIdeasView = '/commentIdeasView';
   static String navigationMenu = '/navigationMenu';
   static String homeView = '/homeView';
+  static String navigationMenuTask4 = '/navigationMenuTask4';
 }
